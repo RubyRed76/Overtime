@@ -37,13 +37,9 @@ RSpec.describe User, type: :model do
 			@user.last_name = nil
 			#... if this is the case, we're going to expect this to not be valid
 			expect(@user).to_not be_valid
-			
-
 		end
 
 	end
-
-
 
 end # end RSpec.describe User
 
